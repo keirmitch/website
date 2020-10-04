@@ -1,0 +1,7 @@
+Blue: #053AF0
+Yellow: #F2B041
+Deep orange: #BD6A17
+
+Light Purple: #4917BD
+Dark Putple: #44248F
+
