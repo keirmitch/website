@@ -1,7 +1,13 @@
-Blue: #053AF0
-Yellow: #F2B041
+Steel Blue: #1561AD
+*Rich Blue: #053AF0
+
+GreenBlue: #1DBAB4
+*LightSeaGreen: #20B2AA
+
+Tomato: #FF6347
 Deep orange: #BD6A17
 
 Light Purple: #4917BD
 Dark Putple: #44248F
 
+Yellow: #F2B041

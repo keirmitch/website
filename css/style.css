@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     margin: 0;
-    background: #eee;
+    background: #ffffff;
     height: auto;
 }
 
@@ -16,7 +16,6 @@ h1{
 h2{
     font-weight: 400;
     font-size: 1.2rem;
-    text-transform: capitalize;
     margin: 0;
 }
 
@@ -29,53 +28,137 @@ main{
 }
 
 #landing {
-    background: #fff;
+    background: #ffffff;
 }
 
 #choose-device {
-    height: 100vh;
-}
-
-#phone {
-    height: 100vh;
-}
-
-#pc {
-    height: 100vh;
-}
-
-#console{
-    height: 100vh;
-}
-
-#landing-text {
     display: flex;
-    flex: 0 1 40vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
+    background: #ffffff;
+}
+
+#phone {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: #ffffff;
+}
+
+#pc {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+#pc2 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 100vh;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+#iph5s {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 100vh;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+#console{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 100vh;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+#iphone {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 100vh;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+#android {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 100vh;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+#landing-text {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+	color: #ffb703;
 }
 
 #landing-text h2 {
-    color: #888;
+    color: #ffca45;
 }
 
 .btn {
     padding: 0.5rem 2rem;
-    border: 1px #ccc solid;
+    /* border: 1px #ccc solid; */
     display: inline-block;
     margin: 2rem 0 0;
     border-radius: 50px;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+    background-color: #ffb703;
     transition: background 500ms ease;
 }
 
 .btn:hover {
-    background: #f4f4f4;
+    background: #ffca45;
 }
 
 .header {
@@ -100,13 +183,22 @@ main{
 
 .caption h2 {
     font-size: 2rem;
+    color: #023047;
+}
+
+.caption h3 {
+    color: #ffb703;
+}
+
+.caption p {
+    color: #023047;
 }
 
 footer {
     text-align: center;
     padding: 2rem 1rem;
     margin: auto;
-    color: #333;
+    color: #023047;
 }
 
 footer h3 {
