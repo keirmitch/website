@@ -47,6 +47,9 @@ main {
   padding-left: 1rem;
   background: #fff;
   color: #ffb703;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -63,7 +66,7 @@ main {
 .btn:hover {
   background: #ffca45;
 }
-
+/*
 #header {
   padding: 1.5rem;
   text-align: center;
@@ -78,7 +81,7 @@ main {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-
+*/
 .content {
   display: flex;
   flex-direction: column;
